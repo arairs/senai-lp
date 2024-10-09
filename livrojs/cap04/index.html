@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Exemplos e Exercícios</h1>
+    <ul>
+        <script>
+            const arquivos = [
+                "livrojs/cap01/resp1_a.html",
+                "livrojs/cap01/resp1_b.html",
+                "livrojs/cap01/resp1_c.html",
+                "livrojs/cap01/resp1_d.html",
+                "livrojs/cap01/resp1_e.html",
+                "livrojs/cap02/exe2_1.html",
+                "livrojs/cap02/exe2_2.html",
+                "livrojs/cap02/exe2_3.html",
+                "livrojs/cap02/exe2_4.html",
+                "livrojs/cap04/exe4_2.html",
+                "livrojs/cap04/exe4_3.html",
+                "livrojs/cap04/exe4_4.html",
+                "livrojs/cap04/exe4_5.html",
+                "livrojs/cap04/resp4_a.html",
+            ];
+            for(let i = 0; i<arquivos.length; i++){
+                document.write(`<li><a href="${arquivos[i]}">${arquivos[i]}</a></li>`)
+            }
+        </script>
+    </ul>
+</body>
+</html>
